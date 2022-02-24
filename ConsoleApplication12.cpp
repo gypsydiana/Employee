@@ -37,22 +37,6 @@ public:
 		count++; // увеличиваем количество созданных объектов
 	}
 
-	void Vvod() {
-		cout << "Введите имя ";
-		cin >> name;
-		cout << "Введите пол ";
-		cin >> gender;
-		cout << "Введите возраст ";
-		cin >> age;
-		cout << "Введите место работы ";
-		cin >> organization;
-		cout << "Введите должность ";
-		cin >> position;
-		cout << "Введите стаж ";
-		cin >> experience;
-		cout << "Введите зарплату ";
-		cin >> salary;
-	}
 	int GetAge() {
 		return age;
 	}
